@@ -2,7 +2,11 @@
 
 ![alt text](image.png)
 
-Una **API REST** es una interfaz que permite que distintos sistemas de software se comuniquen entre sí a través de la web siguiendo los principios de la arquitectura REST (Representational State Transfer, o transferencia de estado representacional). Suele utilizar el protocolo HTTP para enviar y recibir datos (a menudo en formato JSON)
+Una **API REST** es una interfaz que permite que distintos sistemas de software se comuniquen entre sí a través de la web siguiendo los principios de la arquitectura REST (Representational State Transfer, o transferencia de estado representacional). Suele utilizar el protocolo HTTP para enviar y recibir datos (a menudo en formato JSON).
+
+- **Application Programming Interface:** interfaz de programación de aplicaciones.
+- **Interface:** punto de contacto entre dos partes. El contrato que dice qué puedes pedir y qué te devuelven, sin que sepas cómo está hecho por dentro.
+- **REST:** es un estilo de arquitectura, no un protocolo ni una tecnología: un conjunto de reglas para diseñar esa API web (recursos con URL, métodos HTTP con significado, sin estado...).
 
 ## Conceptos teóricos
 
