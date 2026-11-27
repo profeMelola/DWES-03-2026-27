@@ -85,19 +85,19 @@ spring.jpa.defer-datasource-initialization=true
 
 > **JDBC frente a JPA.** Con JDBC escribíamos nosotros las tablas (`schema.sql`) y cada consulta SQL. Con JPA describimos las clases y Hibernate genera las tablas y el SQL. Nosotros pensamos en **objetos**; Hibernate traduce a **tablas**.
 
-Estructura de paquetes (la misma de siempre):
-
+Estructura de paquetes:
 ```
 es.daw.gimnasio
 ├── controller
 ├── service
 ├── repository
-├── model
+├── entity   ← antes model
 ├── dto
 ├── mapper
 └── exception
 ```
 
+> Con JDBC, nuestras clases de datos eran POJOs en `model`. Con JPA son **entidades** (`@Entity`): Hibernate las vincula a una tabla y gestiona su ciclo de vida. Por eso el paquete pasa a llamarse `entity`.
 ---
 
 ## Paso 1. Relación 1:N: Monitor → Actividad
